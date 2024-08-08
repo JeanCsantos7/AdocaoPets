@@ -1,0 +1,68 @@
+.ImagemTopo {
+    object-fit: cover;
+    width: 100%;
+    height: 555px;
+    max-width: 100%;
+  }
+  
+  .btnAdotar, .btnDivulgar {
+    font-family: "Freeman", sans-serif;
+    font-size: 16.5px;
+    width: 652px;
+    height: 40px;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  
+  .btnAdotar {
+    background-color: #F8C51D;
+    color: rgb(44, 44, 44);
+  }
+  
+  .btnAdotar:hover {
+    transition: 550ms ease-in-out;
+    background-color: #f7cd43;
+  }
+  
+  .btnDivulgar {
+    font-weight: 400;
+    color: #F8C51D;
+    background-color: #f3f3f3;
+    border: 1.4px solid #F8C51D;
+  }
+  
+  .Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    width: 100%;
+    margin-top: 1.8%;
+  }
+  
+
+  @media screen and (max-width: 758px){
+    .Container{
+      flex-direction: column;
+    
+      
+    }
+
+    .btnAdotar, .btnDivulgar {
+  
+      width: 350px;
+      height: 41px;
+    
+    
+    }
+
+    .btnAdotar{
+      margin-top: 3.5%;
+    }
+
+    .btnDivulgar {
+      margin-top: 4.2%;
+    }
+  }

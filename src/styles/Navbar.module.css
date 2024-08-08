@@ -1,0 +1,99 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.Cabecalho {
+    width: 100%;
+    height: 125px;
+    background-color: rgb(54, 54, 54);
+  }
+  
+  .Container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .Logotipo {
+    width: 6.5%;
+    padding: 1.4%;
+    cursor: pointer;
+  }
+  
+  .Links, .Entrar {
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-size: 18.5px;
+    text-decoration: none;
+    color: #F8C51D;
+  }
+  
+  .Entrar {
+    font-size: 21px;
+  }
+  
+  .CadastreSe {
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    background-color: #F8C51D;
+    padding: 0.6%;
+    border-radius: 9px;
+    color: rgb(44, 44, 44);
+    font-size: 18.5px;
+    text-decoration: none;
+  }
+  
+  .CadastreSe:hover {
+    transition: 550ms ease-in-out;
+    background-color: #f7cd43;
+  }
+
+.menuHamburguer{
+  display: none;
+  margin-left: 45%;
+}
+
+.logarMobile{
+  display: none;
+}
+
+
+  @media screen and (max-width: 758px)
+  {
+
+    .Cabecalho {
+      width: 100%;
+      max-width: 100%;
+      height: 325px;
+   
+    }
+
+    .Container{
+      padding-top: 6%;
+      
+   
+    }
+
+   
+
+    .Logotipo {
+      width: 15.5%;
+      padding: 1.8%;
+     
+    }
+   
+    .Entrar, .CadastreSe, .Links{
+      display: none;
+    }
+
+    .menuHamburguer, .logarMobile{
+      display: block;
+      cursor: pointer;
+      width: 9.5%;
+    }
+  }
+  

@@ -1,0 +1,155 @@
+.Titulo {
+    font-family: "Freeman", sans-serif;
+    font-size: 36px;
+    color: #f8c51d;
+    padding: 1%;
+    margin-left: 13%;
+    margin-top: 2%;
+  }
+
+  .Container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+
+  }
+
+  .subContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+    cursor: pointer;
+  }
+
+  .Containerv2{
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   flex-direction: column;
+  background-color: #f8c51d;
+   border-radius: 3px;
+   width: 350px;
+   height: 100px;
+  }
+
+  .imagemAnimal{
+    width: 350px;
+    height: 390px;
+    border-radius: 3px;
+
+  }
+
+  .name, .sexo, .especie, .porte{
+    font-family: "Montserrat", sans-serif;
+  }
+ 
+
+  .Buscar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+
+
+
+
+  .Filtros{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-left: 14%;
+    margin-top: 2%;
+  }
+
+  .inputFiltro, .NomeAnimal, .btnBuscar{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 480;
+    border: none;
+    width: 26%;
+    height: 42px;
+    padding: 0.4%;
+    outline: none;
+    border-radius: 7px;
+    background-color: #f8c51d;
+    color: rgb(54, 54, 54);
+  }
+
+
+.btnBuscar{
+  cursor: pointer;
+  } 
+
+  .btnBuscar:hover{
+    background-color: #fed44a;
+    } 
+
+  .name{
+    font-size: 23px;
+    color: rgb(54, 54, 54);
+    font-weight: 800;
+  }
+
+  .sexo, .especie, .porte{
+    font-size: 16px;
+    color: rgb(54, 54, 54);
+  }
+  
+
+  .especie_porte{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 3%;
+    margin-top: 2%;
+  }
+
+  .name_delete{
+    display: flex;
+    gap: 22%;
+  }
+
+  .lixeira{
+   width: 28px;
+
+  }
+
+  .mensagemErro{
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 2.5%;
+  }
+
+  @media screen and (max-width: 758px) {
+    
+    .subContainer{
+     margin: 3%;
+    }
+
+
+    .Filtros{
+     flex-direction: column;
+      margin-left: 3%;
+      
+     
+    
+    }
+ 
+    
+  .inputFiltro, .NomeAnimal, .btnBuscar{
+    width: 77%;
+    height: 45px;
+    margin: 4%;
+    padding: 1.9%;
+  }
+
+
+    
+    
+  }

@@ -1,0 +1,147 @@
+
+
+
+.Container{
+  display: flex;
+  align-items: center;
+}
+
+.subTitulo{
+  font-family: "Freeman", sans-serif;
+  margin-top: 3%;
+  margin-left: 20%;
+  cursor: pointer;
+  color: #f8c51d;
+}
+
+.Titulo {
+    font-family: "Freeman", sans-serif;
+    font-size: 36px;
+    color: #f8c51d;
+    padding: 1%;
+    margin-left: 13%;
+    margin-top: 3%;
+  }
+
+  .formContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13.5%;
+    margin-top: 3%;
+  }
+
+.input{
+    font-family: "Montserrat", sans-serif;
+    outline: none;
+    width: 30%;
+    height: 37px;
+    color: black;
+    
+}
+
+.inputHistoria{
+  font-family: "Montserrat", sans-serif;
+  width: 30%;
+  height: 65px;
+  outline: none;
+  padding: 1%;
+  
+}
+
+.label{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    padding: 1%;
+    margin-left: -1%;
+}
+
+
+.btnPublicar{
+    width: 30%;
+    height: 37px;
+    margin-top: 2%;
+    background-color: #f8c51d;
+    border-radius: 9px;
+    outline: none;
+    border: none;
+}
+
+.mensagemAgradecimento{
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  margin-top: 2.2%;
+  margin-bottom: 2%;
+}
+
+.imagePreview{
+  width: 200px;
+  height: 100px;
+  margin-top: 25px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 758px){
+
+  
+  .imagePreview{
+   border: none;
+  }
+  
+
+
+  .input{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14.5px;
+    outline: none;
+    width: 82%;
+    height: 41px;
+   color: rgb(44, 44, 44);
+   border: none;
+   padding: 3%;
+   border-radius: 6px;
+    
+}
+
+.inputHistoria{
+  font-family: "Montserrat", sans-serif;
+  width: 82%;
+  height: 65px;
+  outline: none;
+  border: none;
+  padding: 3%;
+  
+}
+
+.label{
+  font-size: 17px;
+  padding: 3%;
+
+
+}
+
+.btnPublicar{
+  font-size: 17px;
+  color:rgb(44, 44, 44);
+  margin-top: 9%;
+  width: 82%;
+  height: 42px;
+
+}
+
+
+
+.Titulo {
+
+    font-size: 22px;
+    padding: 1%;
+    margin-left: 14%;
+
+}
+
+.subTitulo{
+ font-size: 22px;
+ margin-left: 12%;
+}
+
+
+}

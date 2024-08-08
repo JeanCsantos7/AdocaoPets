@@ -1,0 +1,27 @@
+.Titulo {
+  font-size: 36px;
+  color: #f8c51d;
+  padding: 2%;
+  margin-left: 13%;
+  margin-top: 9%;
+}
+
+.Logotipo {
+  width: 65px;
+  margin-top: 3%;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  margin-top: 18%;
+  background-color: rgb(54, 54, 54);
+}
+
+.Redes {
+  width: 15px;
+}

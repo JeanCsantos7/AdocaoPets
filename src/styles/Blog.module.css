@@ -1,0 +1,74 @@
+.Container {
+  display: flex;
+  align-items: center;
+  gap: 7%;
+  padding: 3%;
+  height: 400px;
+  margin-left: 8%;
+  background-color: #f3f3f3;
+  box-sizing: border-box;
+  margin-bottom:11%;
+}
+
+.subContainer {
+  width: 24%;
+  height: 515px;
+  margin-top: 9%;
+  background-color: #f8c51d;
+  border-radius: 9px;
+  cursor: pointer;
+ 
+}
+
+.imagemPets {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.Titulo {
+  font-size: 36px;
+  color: #f8c51d;
+  padding: 2%;
+  margin-left: 13%;
+  margin-top: 3%;
+}
+
+.Titulo, .tituloBlogTopo, .TituloPrincipal, .Data {
+  font-family: "Freeman", sans-serif;
+}
+
+.tituloBlogTopo {
+  font-size: 15px;
+  margin-left: 6%;
+}
+
+.TituloPrincipal {
+  text-decoration: none;  
+  color: rgb(44, 44, 44);
+  font-size: 24px;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.Paragrafo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin-left: 6%;
+  margin-top: 2%;
+  color: #fff;
+}
+
+.Data {
+  font-size: 15px;
+  margin-left: 6%;
+  margin-top: 2%;
+}
+
+
+@media screen and (max-width: 758px){
+
+ .Container, .Titulo{
+  display: none;
+ }
+}

@@ -1,0 +1,23 @@
+.Cabecalho {
+  width: 100%;
+  height: 600px;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  height: 265px;
+  background-color: #f7cd43;
+}
+
+.Links {
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-size: 22.5px;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 2%;
+  margin-top: 7%;
+}
