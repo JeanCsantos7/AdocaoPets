@@ -1,0 +1,133 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    margin-top: 3%;
+}
+
+.subContainer{
+    display: flex;
+    gap: 1.4%;
+    margin-top: 0.6%;
+}
+
+.informacoesAdicionais{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.informacao{
+    display: flex;
+    align-items: center;
+    gap: 4%;
+}
+
+.informacaoImg{
+    width: 9.2%;
+   
+}
+
+.nomeAnimal, .historiaNome, .subContainer, .cidade, .quemPostou, .contato{
+    font-family: "Montserrat", sans-serif;
+}
+
+.subContainer{
+    font-size: 16px;
+    color:  #f7cd43;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.nomeAnimal{
+
+    font-size: 32px;
+  font-optical-sizing: auto;
+  font-style: normal;
+    margin-top: 1%;
+  
+}
+
+
+.historiaNome{
+    font-size: 32px;
+
+    margin-top: 2%;
+}
+
+.historia{
+    font-size: 16px;
+    width: 50%;
+}
+
+.cidade, .quemPostou, .contato{
+    font-size: 16px;
+}
+
+.imagemAnimal{
+   width: 30%;
+   height: 450px;
+   object-fit: cover;
+   border-radius: 9px;
+}
+
+
+@media screen and (max-width:758px){
+    .imagemAnimal{
+        width: 100%;
+        margin-top: 4.5%;
+     
+     }
+
+     .nomeAnimal, .subContainer, .historiaNome{
+
+        text-align: center;
+    }
+
+    .nomeAnimal{
+        font-size: 28px;
+    }
+
+    .historiaNome{
+        font-size: 28px;
+        margin-top: 4.5%;
+    
+        
+    }
+
+    .historia{
+        text-align: center;
+        width: 95%;
+    }
+
+    .subContainer{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .informacoesAdicionais{
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding-left: 7%;
+      
+    }
+
+    .informacao{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4%;
+        margin: 4%;
+    }
+
+    .informacaoImg{
+        width: 29px;
+       
+    }
+
+   
+     
+
+}

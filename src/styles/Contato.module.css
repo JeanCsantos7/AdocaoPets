@@ -1,0 +1,136 @@
+
+
+.Titulo {
+  font-family: "Freeman", sans-serif;
+  font-size: 36px;
+  color: #f8c51d;
+  padding: 1%;
+  margin-left: 13%;
+  margin-top: 3%;
+}
+
+
+
+.ContainerForm {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8c51d;
+  border-radius: 7px;
+  height: 485px;
+  width: 26%;
+  padding: 2%;
+  margin-left: 14%;
+  margin-top: 2%;
+}
+
+.input {
+  width: 305px;
+  height: 38px;
+  padding: 2%;
+  margin-left: 6%;
+  margin-top: 4%;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+.label {
+  font-size: 19px;
+  font-weight: 470;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 6%;
+  margin-top: 3%;
+}
+
+.inputMensagem {
+
+  padding: 2%;
+width: 305px;
+height: 60px;
+margin-top: 4%;
+margin-left: 6%;
+outline: none;
+border: none;
+}
+
+.btnEnvio {
+  font-size: 19px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 670;
+  margin: 0 auto;
+  width: 322px;
+  height: 38px;
+  margin-top: 8%;
+  color: #fff;
+  border: 3px solid #fff;
+  background-color: #f8c51d;
+  border-radius: 9px;
+  margin-left: 3%;
+  cursor: pointer;
+}
+
+.mensagemAgradecimento{
+  font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 14%;
+    margin-top: 1%;
+}
+
+
+@media screen and (max-width: 758px){
+.Titulo {
+  
+    font-size: 36px;
+ 
+  }
+
+
+
+.ContainerForm {
+
+  margin: 4%;
+  height: 485px;
+  width: 92%;
+  margin-top: 8%;
+}
+
+.input {
+  width: 322px;
+  height: 38px;
+  padding: 2%;
+  margin-left: 6%;
+  margin-top: 4%;
+ 
+}
+
+.inputMensagem {
+
+   
+  width: 322px;
+  
+
+}
+
+.label {
+ 
+  margin-left: 6%;
+  margin-top: 3%;
+}
+
+.btnEnvio {
+
+  width: 322px;
+  margin-top: 8%;
+
+}
+
+.mensagemAgradecimento{
+  font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 2%;
+    margin-top: 6%;
+}
+
+}

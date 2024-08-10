@@ -1,0 +1,163 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    background-color: rgb(44, 44, 44);
+    height: 1335px;
+   
+   
+     
+ }
+ 
+ 
+ 
+ 
+ .ContainerForm{
+     margin-top: 14%;
+     margin-left: 45%;
+     
+ }
+ 
+ 
+ .label{
+     font-family: "Montserrat", sans-serif;
+     color: rgb(44, 44, 44);
+     padding: 2%;
+     margin-left: 8%;
+ }
+ 
+ .campoInput{
+     font-family: "Montserrat", sans-serif;
+     border: none;
+  outline: none;
+  border-radius: 3px;
+  width: 79%;
+  padding: 2%;
+  height: 38.5px;
+  margin-left: 8%;
+  background: linear-gradient(45deg, #ffffff, #d3d2d2);
+  
+ }
+ 
+ .spinner{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 5%;
+ }
+ 
+ .btnRegistro{
+ cursor: pointer;
+ font-family: "Montserrat", sans-serif;
+ font-size: 14px;
+ color: rgb(44, 44, 44);
+ width: 79%;
+ border-radius: 3px;
+ border: none;
+  height: 38.5px;
+  margin-left: 8%;
+  margin-top: 9%;
+  background: linear-gradient(45deg, #ffffff, #d3d2d2);
+  
+ }
+ 
+ 
+ 
+ 
+ .form{
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+     height: 435px;
+     background: linear-gradient(45deg, #F8C51D, #eec53d);
+    
+     margin: 0 auto;
+     border-radius: 9px;
+    
+    
+    
+ }
+ 
+ .TituloCadastrar{
+     font-family: "Freeman", sans-serif;
+     color: rgb(44, 44, 44);
+     font-weight: 400;
+     font-size: 36.5px;
+     margin-left: 5%;
+     padding: 5%;
+ }
+
+ .textoRegistro{
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 6%;
+ }
+
+ .textoValidacao{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+ }
+
+
+ @media screen and (max-width: 758px){
+   
+    .ContainerForm{
+        margin-top: 35%;
+        margin-left: 10%;
+        
+    }
+
+     
+ .form{
+    margin: 0 auto;
+    width: 345px;
+   height: 435px;
+
+  
+
+  
+  
+  
+}
+
+
+.campoInput{
+  
+ width: 85%;
+ height: 38.5px;
+ font-family: 24px;
+
+ 
+}
+
+.btnRegistro{
+    
+  
+    width: 85%;
+
+     height: 38.5px;
+    
+     
+    }
+
+    .textoRegistro{
+ 
+        margin-top: 9%;
+     }
+
+    .textoValidacao{
+        margin-top: 2%;
+    
+     }
+
+ }

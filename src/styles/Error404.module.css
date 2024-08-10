@@ -1,0 +1,22 @@
+
+.Error404{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+
+
+@media screen and (max-width: 780px){
+
+    .Error404{
+
+    height: 1100px;
+    padding: 1%;
+     object-fit: cover;
+       
+    }
+
+  
+    
+}
