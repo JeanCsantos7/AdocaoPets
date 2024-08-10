@@ -1,4 +1,4 @@
-Adoção Pets 😺🐶
+##Adoção Pets 😺🐶
 
 Esse sistema representa uma plataforma que o usuário pode cadastrar um pet pra adoção em uma aba protegida onde ele preenche todas informações necessárias do animal, esse projeto uniu minha paixão pelos animais e vontade de colaborar com um bem maior que é arrumar um lar para animais que enfrentam a dor que é estar na rua ou não possuir um lar seguro e também a fins de conhecimento. Desenvolvi essa aplicação para aprimorar minhas habilidades com modelagem de dados e funcionalidades do firebase, nesse projeto adquiri conhecimentos sobre autenticação de usuários, rotas privadas com base na autenticação, cadastro de dados no banco de dados, melhoria da lógica de programação
 
